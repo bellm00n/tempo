@@ -1,7 +1,13 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-import Home from "components/Pages/Home";
-import Projects from "components/Pages/Projects";
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from 'components/Pages/Home';
+import Projects from 'components/Pages/Projects';
+import SignUp from 'components/Pages/SignUp';
+import 'normalize.css';
+import 'theme/theme.css'
+import 'theme/fonts.css'
+import 'theme/globalStyle.css'
+
 
 const App = () => (
   <Router>
