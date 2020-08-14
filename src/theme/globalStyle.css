@@ -1,5 +1,11 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 .app {
-    background-color: var(--color-main-background);
-    color: var(--color-main-text);
-    font-family: var(--main-font);
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+  font-family: var(--main-font);
+  font-size: var(--main-font-size);
+  line-height: var(--defaul-line-height);
 }
