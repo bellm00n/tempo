@@ -10,7 +10,7 @@ const Auth = ({children, title, type}) => {
                     <img src={logoImage} alt="logo" className="auth__logo-image"/>
                 </div>
                 <h1 className="auth__title">{title}</h1>
-                <h1 className="auth__type">{type}</h1>
+                <div className="auth__type">{type}</div>
             </div>
             <div className="auth__body">
                 {children}

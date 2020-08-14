@@ -30,13 +30,14 @@
 .auth__title {
     font-size: 25px;
     text-align: center;
-    margin: 17px 0 39px;
+    margin: 11px 0 28px;
 }
 
 .auth__type {
     font-size: 14px;
     text-align: center;
     position: relative;
+    margin-bottom: 14px;
 }
 
 .auth__type::before, .auth__type::after {
@@ -61,9 +62,5 @@
         border: none;
         padding: 0;
         margin: 20px;
-    }
-
-    .auth__title {
-        margin: 17px 0 44px;
     }
 }
