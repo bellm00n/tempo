@@ -1,0 +1,17 @@
+.app {
+    /*Colors*/
+    --color-pink: #FFD1CB;
+    --color-blue: #FFD1CB;
+
+    --color-main-background: #F8F6ED;
+    --color-main-text: #000000;
+    --color-white-text: #ffffff;
+    --color-icons: #000000;
+
+    --main-font: 'sf-pro-display-regular', serif;
+    --main-bold-font: 'sf-pro-display-bold', serif;
+}
+
+.app.dark-theme {
+
+}
