@@ -1,17 +1,26 @@
 @font-face {
-    font-family: 'sf-pro-display-regular';
-    src: url('../assets/fonts/sf-pro-display-regular/sf-pro-display-regular.woff2') format('woff2'),
-    url('../assets/fonts/sf-pro-display-regular/sf-pro-display-regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'sf-pro-display-regular';
+  src: url('../assets/fonts/sf-pro-display-regular/sf-pro-display-regular.woff2') format('woff2'),
+  url('../assets/fonts/sf-pro-display-regular/sf-pro-display-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'sf-pro-display-bold';
-    src: url('../assets/fonts/sf-pro-display-bold/sf-pro-display-bold.woff2') format('woff2'),
-    url('../assets/fonts/sf-pro-display-bold/sf-pro-display-bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'sf-pro-display-bold';
+  src: url('../assets/fonts/sf-pro-display-bold/sf-pro-display-bold.woff2') format('woff2'),
+  url('../assets/fonts/sf-pro-display-bold/sf-pro-display-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'sf-pro-display-semibold';
+  src: url('../assets/fonts/sf-pro-display-semibold/sf-pro-display-semibold.woff2') format('woff2'),
+  url('../assets/fonts/sf-pro-display-semibold/sf-pro-display-semibold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
