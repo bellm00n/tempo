@@ -1,66 +1,100 @@
 .auth {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .auth__box {
-    border: 1px solid #000000;
-    border-radius: 20px;
-    padding: 25px 80px 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 576px;
-    width: 100%;
-    margin: 40px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 25px 80px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 576px;
+  width: 100%;
+  margin: 20px;
 }
 
 .auth__header {
-    font-family: var(--main-bold-font);
+  font-family: var(--main-bold-font);
 }
 
 .auth__logo {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.auth__input {
+  padding-bottom: 15px;
 }
 
 .auth__title {
-    font-size: 25px;
-    text-align: center;
-    margin: 11px 0 28px;
+  font-size: 25px;
+  text-align: center;
+  margin: 11px 0 28px;
 }
 
 .auth__type {
-    font-size: 14px;
-    text-align: center;
-    position: relative;
-    margin-bottom: 14px;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 14px;
 }
 
-.auth__type::before, .auth__type::after {
-    content: '';
-    position: absolute;
-    background-color: #000;
-    height: 1px;
-    width: calc(50% - 45px);
-    top: 9px;
+.auth__type::before,
+.auth__type::after {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  height: 1px;
+  width: calc(50% - 45px);
+  top: 9px;
 }
 
 .auth__type::before {
-    left: 0;
+  left: 0;
 }
 
 .auth__type::after {
-    right: 0;
+  right: 0;
+}
+
+.auth__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.auth__help {
+  white-space: nowrap;
+}
+
+.auth__bottom-span {
+  display: inline-block;
+  margin: 0 10px 0 20px;
+  color: var(--grey-text-color);
 }
 
 @media (max-width: 576px) {
-    .auth__box {
-        border: none;
-        padding: 0;
-        margin: 20px;
-    }
+  .auth__box {
+    border: none;
+    padding: 0;
+    margin: 20px;
+  }
+
+  .auth__footer {
+    flex-direction: column;
+  }
+
+  .auth__help {
+    margin-top: 15px;
+  }
+
+  .auth__button {
+    width: 100%;
+  }
 }

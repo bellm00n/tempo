@@ -1,0 +1,10 @@
+.link {
+  color: var(--links-color);
+  font-weight: var(--main-semibold-font);
+  text-decoration-line: underline;
+  transition: 0.3s ease;
+}
+
+.link:hover {
+  color: var(--links-hover-color);
+}
