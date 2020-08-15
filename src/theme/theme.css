@@ -1,22 +1,31 @@
 .app {
-    /*Colors*/
-    --color-pink: #FFD1CB;
-    --color-blue: #7E97FF;
+  /*Colors*/
+  --color-pink: #ffd1cb;
+  --color-blue: #7e97ff;
 
-    --input-background-color: #E3E3E1;
-    --main-background-color: #F8F6ED;
-    --main-text-color: #000000;
-    --white-text-color: #ffffff;
-    --icons-color: #000000;
+  --input-background-color: #e3e3e1;
+  --main-background-color: #f8f6ed;
+  --main-text-color: #000000;
+  --white-text-color: #ffffff;
+  --grey-text-color: #636363;
+  --icons-color: #000000;
 
-    --main-font: 'sf-pro-display-regular', serif;
-    --main-bold-font: 'sf-pro-display-bold', serif;
-    --main-semibold-font: 'sf-pro-display-semibold', serif;
+  --button-background-color: var(--color-blue);
+  --button-outline-color: var(--color-pink);
+  --button-background-hover-color: #96aaff;
+  --button-background-active-color: #4f5fa0;
+  --button-background-disabled-color: #bac2e4;
 
-    --main-font-size: 14px;
-    --defaul-line-height: 1.6;
+  --links-color: var(--color-blue);
+  --links-hover-color: #96aaff;
+
+  --main-font: "sf-pro-display-regular", serif;
+  --main-bold-font: "sf-pro-display-bold", serif;
+  --main-semibold-font: "sf-pro-display-semibold", serif;
+
+  --main-font-size: 14px;
+  --defaul-line-height: 1.6;
 }
 
 .app.dark-theme {
-
 }
