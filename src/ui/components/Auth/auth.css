@@ -74,6 +74,10 @@
   white-space: nowrap;
 }
 
+.auth__button--google {
+  width: 100%;
+}
+
 .auth__button--google .button__inner{
   padding: 9px 10px;
 }

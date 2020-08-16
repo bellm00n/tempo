@@ -7,6 +7,8 @@ import { isLoaded } from "react-redux-firebase";
 import Preloader from "ui/uikit/Preloader";
 import Home from "ui/pages/Home";
 import Projects from "ui/pages/Projects";
+import Account from "ui/pages/Account";
+import Counter from "ui/pages/Counter";
 import SignUp from "ui/pages/SignUp";
 import SignIn from "ui/pages/SignIn";
 import PrivateRoute from "ui/components/PrivateRoute";
@@ -28,8 +30,14 @@ const App = () => {
       <AuthIsLoaded>
         <Switch>
           <Route path={paths.home} exact component={Home} />
+          <PrivateRoute path={paths.counter}>
+            <Counter />
+          </PrivateRoute>
           <PrivateRoute path={paths.projects}>
             <Projects />
+          </PrivateRoute>
+          <PrivateRoute path={paths.account}>
+            <Account />
           </PrivateRoute>
           <Route path={paths.signUp} exact component={SignUp} />
           <Route path={paths.signIn} exact component={SignIn} />

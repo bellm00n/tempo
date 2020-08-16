@@ -2,6 +2,7 @@
   /*Colors*/
   --color-pink: #ffd1cb;
   --color-blue: #7e97ff;
+  --color-purple: rgba(126, 151, 255, 0.37);
 
   --input-background-color: #e3e3e1;
   --main-background-color: #f8f6ed;
@@ -18,6 +19,9 @@
 
   --links-color: var(--color-blue);
   --links-hover-color: #96aaff;
+
+  --menu-background-color: var(--color-pink);
+  --menu-link-active-background-color: var(--color-purple);
 
   --main-font: "sf-pro-display-regular", serif;
   --main-bold-font: "sf-pro-display-bold", serif;

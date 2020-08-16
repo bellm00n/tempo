@@ -1,0 +1,34 @@
+.menu {
+  background-color: var(--menu-background-color);
+  width: 75px;
+  border-radius: 0 10px 10px 0;
+  height: calc(100vh - 76px);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 15px 15px 133px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu__link {
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 31px;
+  background: transparent;
+  border: 0;
+}
+
+.menu__link:last-child {
+  margin-bottom: 0;
+}
+
+.menu__link--active {
+  background-color: var(--menu-link-active-background-color);
+}
