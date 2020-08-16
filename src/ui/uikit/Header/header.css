@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  padding : 20px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header__logo-span {
+  display: inline-block;
+  font-size: 18px;
+  font-family: var(--main-bold-font);
+  padding-left: 7px;
+  color: var(--main-text-color);
+  text-decoration: none;
+}
