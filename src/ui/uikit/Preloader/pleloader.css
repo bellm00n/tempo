@@ -1,0 +1,12 @@
+.preloader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.preloader__h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}

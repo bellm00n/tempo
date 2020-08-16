@@ -10,4 +10,5 @@
   font-family: var(--main-font);
   font-size: var(--main-font-size);
   line-height: var(--defaul-line-height);
+  min-height: 100vh;
 }

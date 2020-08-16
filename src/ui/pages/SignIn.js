@@ -1,11 +1,11 @@
 import React from "react";
-import { Auth, Input, Button, Link } from "uikit";
+import { Auth, Input, Button, Link } from "ui/uikit";
 
 const SignIn = () => {
   return (
     <Auth title="Sign In" type="By Email">
       <Input className="auth__input" type="email" label="Email" />
-      <Input className="auth__input" type="password" label="Password" />
+      <Input className="auth__input" label="Password" />
       <div className="auth__footer">
         <Button className="auth__button">Sign In</Button>
         <div className="auth__help">

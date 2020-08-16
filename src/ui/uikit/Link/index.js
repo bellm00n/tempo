@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import "uikit/Link/link.css";
+import "ui/uikit/Link/link.css";
 
 const Link = ({ href, children, className, target }) => {
   return (

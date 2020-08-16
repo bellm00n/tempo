@@ -1,10 +1,15 @@
 import PropTypes from "prop-types";
 import React from "react";
-import "uikit/Button/button.css";
+import "ui/uikit/Button/button.css";
 
-const Button = ({ children, className, disabled }) => {
+const Button = ({ children, className, disabled, handler }) => {
   return (
-    <button type="button" disabled={disabled} className={`button ${className}`}>
+    <button
+      onClick={handler}
+      type="button"
+      disabled={disabled}
+      className={`button ${className}`}
+    >
       <span className="button__inner" tabIndex="-1">
         {children}
       </span>

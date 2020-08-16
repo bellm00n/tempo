@@ -9,12 +9,15 @@
 }
 
 .button__inner {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 10px;
   height: 100%;
   width: 100%;
   background-color: var(--button-background-color);
   color: var(--white-text-color);
+  font-family: var(--main-semibold-font);
   padding: 12px 10px 11px;
   min-width: 200px;
   line-height: 17px;
