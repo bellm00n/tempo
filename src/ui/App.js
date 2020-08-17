@@ -4,6 +4,7 @@ import paths from "constants/paths";
 import { useSelector } from "react-redux";
 import { isLoaded } from "react-redux-firebase";
 
+import Modals from 'ui/components/Modals';
 import Preloader from "ui/uikit/Preloader";
 import Home from "ui/pages/Home";
 import Projects from "ui/pages/Projects";
@@ -45,6 +46,7 @@ const App = () => {
           <Route component={Page404} />
         </Switch>
       </AuthIsLoaded>
+      <Modals />
     </div>
   );
 };

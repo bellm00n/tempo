@@ -24,17 +24,39 @@
   transition: 0.3s ease;
 }
 
+.button--outline .button__inner {
+  color: var(--color-blue);
+  background-color: transparent;
+  border: 2px solid var(--color-blue);
+}
+
 .button__inner:hover {
   background-color: var(--button-background-hover-color);
+}
+
+.button--outline:hover .button__inner {
+  background-color: var(--button-background-color);
+  color: var(--white-text-color);
 }
 
 .button__inner:active {
   background-color: var(--button-background-active-color);
 }
 
+.button--outline .button__inner:active {
+  background-color: var(--button-background-active-color);
+  border-color: var(--button-background-active-color);
+  color: var(--white-text-color);
+}
+
 .button:disabled .button__inner {
   background-color: var(--button-background-disabled-color);
   cursor: auto;
+}
+
+.button--outline:disabled .button__inner{
+  border-color: var(--button-background-disabled-color);
+  color: var(--button-background-disabled-color);
 }
 
 .button:focus,

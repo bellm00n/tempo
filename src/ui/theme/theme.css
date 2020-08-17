@@ -23,6 +23,8 @@
   --menu-background-color: var(--color-pink);
   --menu-link-active-background-color: var(--color-purple);
 
+  --modals-overlay-color: rgba(0, 0, 0, 0.5);
+
   /*Fonts */
   --main-font: "sf-pro-display-regular", serif;
   --main-bold-font: "sf-pro-display-bold", serif;
