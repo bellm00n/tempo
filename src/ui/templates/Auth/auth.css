@@ -78,7 +78,7 @@
   width: 100%;
 }
 
-.auth__button--google .button__inner{
+.auth__button--google .button__inner {
   padding: 9px 10px;
 }
 
@@ -92,7 +92,6 @@
   margin: 0 10px 0 20px;
   color: var(--grey-text-color);
 }
-
 
 @media (max-width: 576px) {
   .auth__box {

@@ -23,7 +23,7 @@
   margin-bottom: 31px;
   background: transparent;
   border: 0;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .menu__link:last-child {

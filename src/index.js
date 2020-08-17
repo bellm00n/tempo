@@ -11,7 +11,7 @@ import { createFirestoreInstance } from "redux-firestore";
 import { ReactReduxFirebaseProvider } from "react-redux-firebase";
 import { BrowserRouter } from "react-router-dom";
 import firebaseConfig from "configs/firebaseConfig";
-import rrfConfig from 'configs/rrfConfig'
+import rrfConfig from "configs/rrfConfig";
 
 firebase.initializeApp(firebaseConfig);
 firebase.firestore();

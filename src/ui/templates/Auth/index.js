@@ -5,7 +5,7 @@ import { Button } from "ui/uikit";
 import { useFirebase } from "react-redux-firebase";
 import { useHistory } from "react-router-dom";
 import { Google } from "ui/uikit/Icons";
-import paths from 'constants/paths';
+import paths from "constants/paths";
 
 const Auth = ({ children, title, type }) => {
   const firebase = useFirebase();
@@ -32,8 +32,12 @@ const Auth = ({ children, title, type }) => {
             <img src={logoImage} alt="logo" className="auth__logo-image" />
           </div>
           <h1 className="auth__title">{title}</h1>
-          <Button handler={signInWithGoogle} className="auth__button auth__button--google">
-           <Google /> <span className="auth__button-label">{title} with Google</span>
+          <Button
+            handler={signInWithGoogle}
+            className="auth__button auth__button--google"
+          >
+            <Google />{" "}
+            <span className="auth__button-label">{title} with Google</span>
           </Button>
           <div className="auth__type">{type}</div>
         </div>

@@ -1,4 +1,4 @@
 export default {
-  userProfile: 'users',
+  userProfile: "users",
   useFirestoreForProfile: true,
-}
+};

@@ -2,14 +2,18 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const authSlice = createSlice({
   name: "auth",
-  initialState: { isLoading: true },
+  initialState: [],
   reducers: {
-    signUp: {},
+    signUp(state, action) {
+      return (dispatch) => {
+        // dispatch
+      };
+    },
     signIn: {},
     logOut: {},
   },
 });
 
-export const { addTodo, toggleTodo } = authSlice.actions;
+export const { signUp, signIn, logOut } = authSlice.actions;
 
 export default authSlice.reducer;
