@@ -1,13 +1,11 @@
 import React from 'react';
-import { Header, Menu } from 'ui/uikit'
+import Main from 'ui/templates/Main';
 
 const Project = () => {
   return (
-      <div className="container">
-        <Header/>
-        <Menu />
+      <Main>
         <h1>--------------Project</h1>
-      </div>
+      </Main>
   )
 };
 

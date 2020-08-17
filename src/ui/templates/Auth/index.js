@@ -1,6 +1,6 @@
 import React from "react";
 import logoImage from "assets/images/logo.svg";
-import "ui/components/Auth/auth.css";
+import "ui/templates/Auth/auth.css";
 import { Button } from "ui/uikit";
 import { useFirebase } from "react-redux-firebase";
 import { useHistory } from "react-router-dom";
