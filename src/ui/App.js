@@ -11,6 +11,7 @@ import Account from "ui/pages/Account";
 import Counter from "ui/pages/Counter";
 import SignUp from "ui/pages/SignUp";
 import SignIn from "ui/pages/SignIn";
+import Page404 from "ui/pages/Page404";
 import PrivateRoute from "ui/components/PrivateRoute";
 
 import "normalize.css/normalize.css";
@@ -41,6 +42,7 @@ const App = () => {
           </PrivateRoute>
           <Route path={paths.signUp} exact component={SignUp} />
           <Route path={paths.signIn} exact component={SignIn} />
+          <Route component={Page404} />
         </Switch>
       </AuthIsLoaded>
     </div>
