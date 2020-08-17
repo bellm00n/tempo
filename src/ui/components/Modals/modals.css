@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: modalOverlay ease .3s forwards;
+  animation: modalOverlay ease 0.3s forwards;
 }
 
 .modal__box {
@@ -17,7 +17,7 @@
   min-width: 576px;
   min-height: 285px;
   padding: 30px 80px 60px 30px;
-  animation: showPopup ease .3s forwards;
+  animation: showPopup ease 0.3s forwards;
   opacity: 0;
   transform: translateY(-20px);
 }
@@ -53,7 +53,7 @@
 
 @keyframes modalOverlay {
   0% {
-    background-color: rgba(255,255,255, 0);
+    background-color: rgba(255, 255, 255, 0);
   }
   100% {
     background-color: var(--modals-overlay-color);

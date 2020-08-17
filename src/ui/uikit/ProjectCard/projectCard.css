@@ -15,11 +15,10 @@
 .project-card--type-1 {
   background-position: -49px -56px;
   background-color: var(--button-background-color);
-  background-image: url('../../../assets/images/project-card-decorations-1.png');
+  background-image: url("../../../assets/images/project-card-decorations-1.png");
 }
 
 .project-card__title {
-
   font-size: 18px;
   margin-top: 0;
   margin-bottom: 12px;

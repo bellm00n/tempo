@@ -54,7 +54,7 @@
   cursor: auto;
 }
 
-.button--outline:disabled .button__inner{
+.button--outline:disabled .button__inner {
   border-color: var(--button-background-disabled-color);
   color: var(--button-background-disabled-color);
 }
