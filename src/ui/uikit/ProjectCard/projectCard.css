@@ -1,0 +1,42 @@
+.project-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: var(--project-card-width);
+  width: 100%;
+  height: var(--project-card-height);
+  border-radius: 10px;
+  box-sizing: border-box;
+  flex-direction: column;
+  font-family: var(--main-semibold-font);
+  cursor: pointer;
+}
+
+.project-card--type-1 {
+  background-position: -49px -56px;
+  background-color: var(--button-background-color);
+  background-image: url('../../../assets/images/project-card-decorations-1.png');
+}
+
+.project-card__title {
+
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.project-card__counter {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 10px 15px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.project-card__time {
+  font-size: 18px;
+  display: inline-block;
+  line-height: 1;
+}

@@ -1,0 +1,21 @@
+.projects {
+  padding-left: 195px;
+}
+
+.projects__title {
+  font-size: 25px;
+  font-family: var(--main-bold-font);
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.projects__container {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects__card {
+
+}

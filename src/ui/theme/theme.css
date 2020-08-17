@@ -23,12 +23,17 @@
   --menu-background-color: var(--color-pink);
   --menu-link-active-background-color: var(--color-purple);
 
+  /*Fonts */
   --main-font: "sf-pro-display-regular", serif;
   --main-bold-font: "sf-pro-display-bold", serif;
   --main-semibold-font: "sf-pro-display-semibold", serif;
 
   --main-font-size: 14px;
   --defaul-line-height: 1.6;
+
+  /*Sizes*/
+  --project-card-width: 249px;
+  --project-card-height: 340px;
 }
 
 .app.dark-theme {
