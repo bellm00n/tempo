@@ -23,6 +23,7 @@
   margin-bottom: 31px;
   background: transparent;
   border: 0;
+  transition: .3s ease;
 }
 
 .menu__link:last-child {
@@ -30,5 +31,5 @@
 }
 
 .menu__link--active {
-  background-color: var(--menu-link-active-background-color);
+  background: var(--menu-link-active-background-color);
 }

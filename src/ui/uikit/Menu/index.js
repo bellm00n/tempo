@@ -20,7 +20,7 @@ const Menu = () => {
           ))}
         </nav>
         <div className="menu__additional">
-          <a  className="menu__link" href='https://github.com/bellm00n/tempo'><Icons.Github/></a>
+          <a  className="menu__link" target='_blank' href='https://github.com/bellm00n/tempo'><Icons.Github/></a>
           <button className="menu__link" ><Icons.LogOut/></button>
         </div>
       </div>
