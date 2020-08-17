@@ -11,11 +11,16 @@
 }
 
 .projects__container {
+  overflow: hidden;
+}
+
+.projects__row {
+  margin: 0 -50px;
   padding-top: 40px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .projects__card {
-
+  margin: 0 50px 60px;
 }
