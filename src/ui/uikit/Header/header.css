@@ -5,6 +5,13 @@
   left: 0;
   top: 0;
   background-color: var(--main-background-color);
+  display: flex;
+}
+
+.header__link{
+  display: none;
+  background: transparent;
+  border: 0;
 }
 
 .header__logo {
@@ -20,4 +27,24 @@
   padding-left: 7px;
   color: var(--main-text-color);
   text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .header {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #404040;
+    padding: 11px 24px 10px 24px;
+    position: static;
+  }
+
+
+  .header__logo-span {
+    display: none;
+  }
+
+  .header__link{
+    display: block;
+  }
+
 }

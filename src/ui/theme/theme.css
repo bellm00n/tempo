@@ -36,6 +36,9 @@
   /*Sizes*/
   --project-card-width: 249px;
   --project-card-height: 340px;
+
+  --header-height: 75px;
+  --menu-width: 75px;
 }
 
 .app.dark-theme {
