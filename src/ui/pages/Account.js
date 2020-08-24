@@ -4,7 +4,7 @@ import Main from "ui/templates/Main";
 const Account = () => {
   return (
     <Main>
-      <h1>--------------Account</h1>
+      <h1>Account</h1>
     </Main>
   );
 };

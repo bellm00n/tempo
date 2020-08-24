@@ -4,7 +4,7 @@ import Main from "ui/templates/Main";
 const Counter = () => {
   return (
     <Main>
-      <h1>--------------Counter</h1>
+      <h1>Counter</h1>
     </Main>
   );
 };
