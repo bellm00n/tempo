@@ -26,3 +26,5 @@ yarn-error.log*
 .idea
 
 src/configs/firebaseConfig.js
+/.firebase/
+.firebaserc
